@@ -1,0 +1,36 @@
+/////////////////shko branch with ssh
+OPKR
+export http_proxy=192.168.49.1:8000&& export https_proxy=192.168.49.1:8000&& export ftp_proxy=192.168.49.1:8000&& export no_proxy=192.168.49.1:8000&& cd /data && git -c http.sslVerify=false clone "https://github.com/koseonghoon/opkr.git" openpilot&& cd openpilot&& git checkout "OPKR_C2"&& reboot
+cd /data&& git clone "https://github.com/koseonghoon/opkr.git" openpilot&& cd openpilot&& git checkout "OPKR_C2"&& reboot
+
+Apilot
+export http_proxy=192.168.49.1:8000&& export https_proxy=192.168.49.1:8000&& export ftp_proxy=192.168.49.1:8000&& export no_proxy=192.168.49.1:8000&& cd /data&& git -c http.sslVerify=false clone "https://github.com/koseonghoon/apilot.git" openpilot&& cd openpilot&& git checkout "apilot-c2"&& reboot
+cd /data&& git clone "https://github.com/koseonghoon/apilot.git" openpilot&& cd openpilot&& git checkout "apilot-c2"&& reboot
+
+/////apilot tmap download link
+https://gofile.me/75fOH/Djz4XoVry
+
+////////Install branch for NEOS20 with ssh  [At first]
+ --no-check-certificate
+cd /data/data/ai.comma.plus.neossetup&& wget -e use_proxy=yes -e https_proxy=192.168.49.1:8000 https://jmtechn.com/installer
+cd /data/data/ai.comma.plus.neossetup&&wget  --no-check-certificate https://jmtechn.com/installer
+git -c http.sslVerify=false https://github.com/dragonpilot-community/openpilot.git/
+
+///////SMDPS flash panda    [Need to NEOS 16.2]
+export http_proxy=192.168.49.1:8000&& export https_proxy=192.168.49.1:8000&& export ftp_proxy=192.168.49.1:8000&& export no_proxy=192.168.49.1:8000&& cd /data&&git -c http.sslVerify=false clone https://github.com/multikyd/openpilot.git openpilot -b outdated --single-branch --depth=1&&cd /data/openpilot&&git checkout outdated&& reboot
+cd /data && git clone https://github.com/multikyd/openpilot.git openpilot -b outdated --single-branch --depth=1&&cd /data/openpilot&&git checkout outdated&& reboot
+
+
+cd /data/openpilot/panda/board&& ./flash.sh
+cd /data/openpilot/panda/board&& make recover
+cd /data/openpilot&& ./panda_flashing.sh
+
+
+////////apilot adb command
+adb shell pm grant com.ajouatom.carrotman android.permission.READ_LOGS
+adb shell pm grant com.ajouatom.apilotman android.permission.READ_LOGS
+
+
+//////////////git pull
+export http_proxy=192.168.49.1:8000&& export https_proxy=192.168.49.1:8000&& export ftp_proxy=192.168.49.1:8000&& export no_proxy=192.168.49.1:8000&& cd /data&& git -c http.sslVerify=false pull
+
