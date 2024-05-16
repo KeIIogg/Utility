@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>700</width>
-    <height>547</height>
+    <width>701</width>
+    <height>534</height>
    </rect>
   </property>
   <property name="font">
@@ -289,12 +289,35 @@
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color:rgb(80, 188, 223, 0.5);
-color:white;
-border-radius:5px;</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>설치</string>
+      <string>설  치</string>
      </property>
     </widget>
     <widget class="QPushButton" name="office_uninstall">
@@ -316,13 +339,36 @@ border-radius:5px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">
-color:white;
-border-radius:5px;
-background-color: rgb(255, 0, 0);</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 0, 127);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>제거</string>
+      <string>제  거</string>
      </property>
     </widget>
     <widget class="QPushButton" name="office_update_off">
@@ -341,14 +387,35 @@ background-color: rgb(255, 0, 0);</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 170, 0);
-color:white;
-border-radius:5px;
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
 
 </string>
      </property>
      <property name="text">
-      <string>오피스업데이트 끄기</string>
+      <string>오피스업데이트   끄  기</string>
      </property>
     </widget>
     <widget class="QPushButton" name="office_auth">
@@ -370,12 +437,35 @@ border-radius:5px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color:rgb(80, 188, 223, 0.5);
-color:white;
-border-radius:5px;</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>인증</string>
+      <string>인  증</string>
      </property>
     </widget>
    </widget>
@@ -751,12 +841,35 @@ border-radius:5px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color:rgb(80, 188, 223, 0.5);
-color:white;
-border-radius:5px;</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>설치</string>
+      <string>설  치</string>
      </property>
     </widget>
     <widget class="QCheckBox" name="chk_lggram">
@@ -800,14 +913,36 @@ border-radius:5px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 170, 0);
-color:white;
-border-radius:5px;
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 0, 127);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
 
 </string>
      </property>
      <property name="text">
-      <string>Onedrive 삭제</string>
+      <string>Onedrive   삭  제</string>
      </property>
     </widget>
     <widget class="QPushButton" name="windows_defender_off">
@@ -826,14 +961,35 @@ border-radius:5px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 170, 0);
-color:white;
-border-radius:5px;
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
 
 </string>
      </property>
      <property name="text">
-      <string>윈도우디펜더 끄기</string>
+      <string>윈도우디펜더   끄  기</string>
      </property>
     </widget>
    </widget>
@@ -911,12 +1067,35 @@ border-radius:5px;
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color:rgb(80, 188, 223, 0.5);
-color:white;
-border-radius:5px;</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>설치</string>
+      <string>설  치</string>
      </property>
     </widget>
     <widget class="QPushButton" name="win_auth">
@@ -938,12 +1117,35 @@ border-radius:5px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color:rgb(80, 188, 223, 0.5);
-color:white;
-border-radius:5px;</string>
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
      </property>
      <property name="text">
-      <string>인증</string>
+      <string>인  증</string>
      </property>
     </widget>
     <widget class="QPushButton" name="disable_windows_update">
@@ -965,14 +1167,35 @@ border-radius:5px;</string>
       </font>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(255, 170, 0);
-color:white;
-border-radius:5px;
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
 
 </string>
      </property>
      <property name="text">
-      <string>윈도우업데이트 끄기</string>
+      <string>윈도우업데이트  끄  기</string>
      </property>
     </widget>
    </widget>
