@@ -1,0 +1,8 @@
+<RCC>
+  <qresource>
+    <file>e2i_icon.ico</file>
+  </qresource>
+  <qresource>
+    <file>tan.png</file>
+  </qresource>
+</RCC>

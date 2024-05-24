@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EZ2install</class>
+ <widget class="QMainWindow" name="EZ2install">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>휴먼아미체</family>
+    <pointsize>12</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>EZ2install</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/e2i_icon.ico</normaloff>:/e2i_icon.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+</string>
+  </property>
+  <widget class="QWidget" name="widget">
+   <widget class="QGroupBox" name="office_box">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>371</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼아미체</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Microsoft Office</string>
+    </property>
+    <widget class="QComboBox" name="office_drop">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>40</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::DefaultContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <item>
+      <property name="text">
+       <string>MS Office 2019 Proplus</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MS Office 2021 Proplus</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>MS Office 2024 Proplus</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QCheckBox" name="chk_powerpoint">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>170</y>
+       <width>121</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>PowerPoint</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_excel">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>140</y>
+       <width>71</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Excel</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_word">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>110</y>
+       <width>71</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Word</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_access">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>200</y>
+       <width>121</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Access</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_teams">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>110</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Teams</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_onedrive">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>170</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OneDrive</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_onenote">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>200</y>
+       <width>81</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>OneNote</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_outlook">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>140</y>
+       <width>91</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Outlook</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="office_install">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>80</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>설  치</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="office_uninstall">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>160</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 0, 127);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>제  거</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="office_update_off">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>200</y>
+       <width>141</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>오피스업데이트   끄  기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="office_auth">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>120</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>인  증</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="util_box">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>80</y>
+      <width>271</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼아미체</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Util</string>
+    </property>
+    <widget class="QCheckBox" name="chk_honeyview">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>180</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>반디뷰</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_bandizip">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>96</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>반디집</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_adbdriver">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>ADB USB</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_mobaxterm">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>180</y>
+       <width>101</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Mobaxterm</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_nespdf">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>90</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Nes PDF</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_pdanet">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>120</y>
+       <width>121</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>PDAnet+</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_hnc2022">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>90</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>HNC 2022</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_samswitch">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>150</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>삼성스위치</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_chrome">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>60</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chrome</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_anydesk">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>210</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Anydesk</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_kakao">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>210</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>카카오톡</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_everything">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>30</y>
+       <width>101</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Everything</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_samusb">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>120</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>삼성USB</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_ccleaner">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Ccleaner</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_printpdf">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>240</y>
+       <width>131</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>모두의프린터</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="util_install">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>270</y>
+       <width>141</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>설  치</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="chk_lggram">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>240</y>
+       <width>111</width>
+       <height>19</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>LG그램</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="delete_onedrive">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>330</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 0, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	
+	background-color: rgb(255, 0, 127);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>Onedrive   삭  제</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="windows_defender_off">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>360</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>윈도우디펜더   끄  기</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="turbo_off">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>390</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>터보부스트     끄  기</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="win_box">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>371</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼아미체</family>
+      <pointsize>13</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="title">
+     <string>Windows</string>
+    </property>
+    <widget class="QComboBox" name="win_drop">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>40</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <item>
+      <property name="text">
+       <string>Windows 10 x64</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Windows 11 x64</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="win_install">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>90</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>설  치</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="win_auth">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>90</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(85, 170, 255);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(85, 0, 255);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(170, 170, 127);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>인  증</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="disable_windows_update">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>140</y>
+       <width>161</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>휴먼아미체</family>
+       <pointsize>12</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	background-color: rgb(255, 170, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+QPushButton:hover{
+	background-color: rgb(255, 85, 0);
+	border-radius:5px;
+    color:white;
+
+}
+QPushButton:pressed{
+	background-color: rgb(255, 255, 0);
+	border-radius:5px;
+    color:white;
+
+}
+
+
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>윈도우업데이트  끄  기</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="tani">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>0</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼모음T</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resources.qrc">:/tan.png</pixmap>
+    </property>
+    <property name="textInteractionFlags">
+     <set>Qt::NoTextInteraction</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>휴먼아미체</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>EZ 2 install</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

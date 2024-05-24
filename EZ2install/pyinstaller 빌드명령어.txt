@@ -1,0 +1,1 @@
+pyinstaller --onefile -w --uac-admin --noupx --add-data "d:/e2i/v1/e2i_main.ui;." --add-binary "d:/e2i/v1/KeIIog/setup.exe;KeIIog" --add-binary "d:/e2i/v1/KeIIog/uninstall.exe;KeIIog" --icon "d:/e2i/v1/e2i_icon.ico" main.py
