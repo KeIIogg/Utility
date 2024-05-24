@@ -1,7 +1,0 @@
-pyinstaller --onefile -w --uac-admin --add-data "d:/e2i/e2i_main.ui;." --add-binary "d:/e2i/KeIIog/setup.exe;KeIIog" --add-binary "d:/e2i/KeIIog/uninstall.exe;KeIIog" --icon "d:/e2i/ez2install.ico" main.py
-
-
-
-
-
-
